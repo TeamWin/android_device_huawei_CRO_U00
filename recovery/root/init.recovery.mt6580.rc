@@ -1,6 +1,9 @@
 on early-init
     start healthd
 
+on init
+    symlink /dev/block/platform/mtk-msdc.0 /dev/block/platform/mtk-msdc.0/11120000.msdc0
+
 service healthd /sbin/healthd -r
     critical
     seclabel u:r:healthd:s0
