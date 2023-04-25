@@ -28,7 +28,6 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0.auto
 TW_MAX_BRIGHTNESS := 255
 TW_INCLUDE_FB2PNG := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
-BOARD_HAS_NO_REAL_SDCARD := true
 TW_EXCLUDE_SUPERSU := true
 include $(LOCAL_PATH)/kernel.mk
 include $(LOCAL_PATH)/BoardConfig32.mk
