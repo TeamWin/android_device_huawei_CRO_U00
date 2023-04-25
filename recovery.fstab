@@ -1,12 +1,30 @@
 # mount point fstype device
 
-/boot         emmc    /dev/block/platform/mtk-msdc.0/by-name/boot
-/recovery     emmc    /dev/block/platform/mtk-msdc.0/by-name/recovery
-/cache        ext4    /dev/block/platform/mtk-msdc.0/by-name/cache
-/system       ext4    /dev/block/platform/mtk-msdc.0/by-name/system
-/data         ext4    /dev/block/platform/mtk-msdc.0/by-name/userdata   length=-16384
-/nvdata       ext4    /dev/block/platform/mtk-msdc.0/by-name/nvdata     flags=display="NvData";backup=1
-/nvram		  emmc    /dev/block/platform/mtk-msdc.0/by-name/nvram		flags=display="nvram";backup=1;flashimg=1
-/logo		  emmc    /dev/block/platform/mtk-msdc.0/by-name/logo	flags=display="logo";backup=1;flashimg=1
+/boot         emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/boot
+/recovery     emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/recovery
+/cache        ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/cache
+/system       ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/system
+/data         ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/userdata   flags=display="Data";encryptable=/dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/metadata
+/nvdata       ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/nvdata     flags=display="NvData";backup=1
+/nvram		  emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/nvram		flags=display="nvram";backup=1;flashimg=1
+/logo		  emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/logo	flags=display="logo";backup=1;flashimg=1
+/persistent   emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/frp        flags=display="FRP";flashimg;backup
+
+/preloader    emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/mmcblk0boot0       flags=display="Preloader Full";backup
+/bootloader   emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/lk         flags=display="lk (little kernel)";flashimg;backup
+/secro        emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/secro      flags=display="Secro";flashimg;backup
+
+/custom       ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/custom     flags=display="Custom";backup
+
+/proinfo      emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/proinfo    flags=display=proinfo;flashimg;backup
+/seccfg       emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/seccfg     flags=display=seccfg;flashimg;backup
+
+/protect_f    ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/protect1   flags=display=protect_f;backup
+/protect_s    ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/protect2   flags=display=protect_s;backup
+/bak          ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/bak        flags=display=bak;backup
+/simlock      ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/simlock    flags=display=simlock;backup
+/misc         emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/para       flags=display=para_misc;backup
+/expdb        emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/expdb      flags=display=expdb;backup
+/bakraw       emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/bakraw     flags=display=bakraw;backup
 /extSdCard    auto    /dev/block/mmcblk1p1 /dev/block/mmcblk1           flags=display="MicroSD card";storage;wipeingui;removable
-/usb-otg      auto    /dev/block/sda1 /dev/block/sda                    flags=display="USB OTG drive";storage;wipeingui;removable
+#/usb-otg      auto    /dev/block/sda1 /dev/block/sda                    flags=display="USB OTG drive";storage;wipeingui;removable
