@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd1fed55_c02111c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-04-25T22:51:41Z",
+      "side": 1,
+      "message": "Thank you for the submissions. This device hasn\u0027t been updates since 2018. Would you like to be the maintainer?",
+      "revId": "7228138ecb4332387e45273da5700a7ffe30c2e6",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
