@@ -33,6 +33,24 @@
       "message": "Yes, I can be an maintainer.\nFor this device, it is more correct to use version android 6.0. See repo (https://github.com/usernameComputer01/twrp-android_device_huawei_CRO_U00)",
       "revId": "7228138ecb4332387e45273da5700a7ffe30c2e6",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c14f5458_c68bf2b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1101
+      },
+      "writtenOn": "2023-04-26T01:37:35Z",
+      "side": 1,
+      "message": "\u003e Thank you for the submissions. This device hasn\u0027t been updates since 2018. Would you like to be the maintainer?\n\nYes, I can be an maintainer.\nFor this device, it is more correct to use version android 6.0. See repo (https://github.com/usernameComputer01/twrp-android_device_huawei_CRO_U00)",
+      "parentUuid": "bd1fed55_c02111c1",
+      "revId": "7228138ecb4332387e45273da5700a7ffe30c2e6",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
