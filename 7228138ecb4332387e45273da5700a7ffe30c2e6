@@ -69,6 +69,24 @@
       "parentUuid": "a285626e_711aaa7b",
       "revId": "7228138ecb4332387e45273da5700a7ffe30c2e6",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41f52fa6_9e02fa01",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1101
+      },
+      "writtenOn": "2023-04-27T14:59:48Z",
+      "side": 1,
+      "message": "\u003e You can use that branch. Would you like me to fork it for this device? I have given your permissions for the gerrit project.\n\nYes,the proposed device in the Android 6.0 branch is build without problems, unlike version 5.0 (errors not related to the device tree).",
+      "parentUuid": "4e84cec6_c0418c3d",
+      "revId": "7228138ecb4332387e45273da5700a7ffe30c2e6",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
